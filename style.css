@@ -1,0 +1,76 @@
+body {
+  background-color: lightsteelblue;
+}
+
+header {
+  font-size: 10px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: darkgreen;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex; /* Aligns child elements horizontally */
+  align-items: center; /* Vertically centers the icons */
+  justify-content: center; /* Distributes space evenly around the icons */
+  /* Other options for justify-content: flex-start, center, space-between, space-evenly */
+}
+.icon-container img {
+  width: 32px; /* Set a consistent size for your favicons */
+  height: 32px;
+  margin: 5px; /* Add horizontal margin for spacing */
+}
+
+nav {
+  font-size: 25px;
+}
+
+li {
+  font-size: 20px;
+}
+
+h3 {
+  color: black;
+  text-align: left;
+  font-size: 25px;
+}
+
+a {
+  font-size: 40px;
+}
+
+a:link {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: hotpink;
+}
+
+a:hover {
+  text-decoration: darkgreen;
+}
+
+a:active {
+  text-decoration: red;
+} 
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.content-image {
+    width: 40%;
+    height: auto;
+    border: 2px solid #ccc;
+    display: block;
+    margin: auto;
+}
