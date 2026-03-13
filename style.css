@@ -75,8 +75,12 @@ p {
     margin: auto;
 }
 
-.right-image {
-  float: right;
-  width: 80%;
-  margin-left: 20px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  width: 300px;
 }
