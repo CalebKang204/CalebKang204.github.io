@@ -74,3 +74,9 @@ p {
     display: block;
     margin: auto;
 }
+
+.right-image {
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+}
